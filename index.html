@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lets learn javascript</h1>
+    <h2>How do we onclick events and alerts on an anchor</h2>
+
+    <a href="https://www.youtube.com" target="_blank"
+    onclick="alert('Warning! You are leaving the website!')">Youtube link</a>
+
+    <h2>How do we display and hide text</h2>
+    <h2>Whats my secert identity</h2>
+    <p id="secert"></p>
+    <button onclick="document.getElementById('secert').innerHTML= 'Nana nana nana nana nana, Batman!'; document.getElementById('secert').style.display='block'">Reveal!</button>
+
+    <button onclick="document.getElementById('secert').style.display='none'">Hide</button>
+
+    <h2>Hwo do we change an image with javascript</h2>
+    <img src="images/bulbon.jpg" id="myImage" style="height: 200px; width: 200px;">
+
+    <button onclick="document.getElementById('myImage').src= 'images/bulboff.jpg'">Bulboff</button>
+     <button onclick="document.getElementById('myImage').src= 'images/bulbon.jpg'">Bulbon</button>
+
+    <h2>How do we change styles with a button?</h2>
+    <p id="alice">Hi I'm alice</p>
+
+    <button onclick="document.getElementById('alice').style.color='blue';
+    document.getElementById('alice').style.fontSize='5px'">Cake - Eat me</button>
+
+    
+    <button onclick="document.getElementById('alice').style.color='red';
+    document.getElementById('alice').style.fontSize='50px'">Potion</button>
+
+    <h2>How do we change font style</h2>
+    <p id="font-family">font change</p>
+    <button onclick="document.getElementById('font-family').style.fontFamily='cursive';
+    document.getElementById('font-family').style.fontSize='50px'">Font</button>
+
+    <h2>How do we change text align</h2>
+    <p id="text">text align</p>
+     <button onclick="document.getElementById('text').style.textAlign='center';
+    document.getElementById('text').style.fontSize='50px'">Font</button>
+
+</body>
+</html>
